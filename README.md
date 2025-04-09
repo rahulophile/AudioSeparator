@@ -64,30 +64,35 @@ Other options (not used here but available):
 ```bash
 git clone https://github.com/rahulophile/AudioSeparator.git
 cd AudioSeparator
+```
+
 2️⃣ Setup Python Environment
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 Make sure Python ≥ 3.8 is installed and working.
 
 3️⃣ Place your audio
 Replace yourAudio.mp3 with your own .mp3 file in the root folder.
 
 4️⃣ Run Spleeter to Split Audio
-bash
+```bash
 Copy
 Edit
 spleeter separate -i yourAudio.mp3 -p spleeter:2stems -o output
+```
 5️⃣ Done ✅
 Separated files will be in:
 
-bash
+```bash
 Copy
 Edit
 /output/yourAudio/
 ├── vocals.wav
 └── accompaniment.wav
+```
 🖼 Preview
 
 
@@ -110,9 +115,3 @@ Copy
 Edit
 
 ---
-
-🪄 Just paste this whole thing inside your `README.md`, and tera repo lagega ekdam top-notch pro project jaisa. Demo GIF, preview PNG, and everything will render nicely on GitHub. Bas check kar lena ki paths and filenames sahi hai.
-
-Aur haan, feel free to tweak the tone a bit if you want to sound more formal or chill 😄
-
-Need help setting `demo.gif`, `preview.png`, or anything else? Just holler bro.
