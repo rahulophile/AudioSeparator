@@ -18,11 +18,25 @@ Now, I can split audio into clean vocals and instrumentals — all from my syste
 
 ## 📁 Project Structure
 
-. ├── demo.gif # Demo animation of how it works ├── LICENSE # Open-source license ├── output/ │ └── yourAudio/ │ ├── accompaniment.wav # Instrumental only │ └── vocals.wav # Vocals only ├── pretrained_models/ │ └── 2stems/ │ ├── checkpoint │ ├── model.data-00000-of-00001 │ ├── model.index │ └── model.meta ├── preview.png # Screenshot/Preview ├── README.md # This file 🫡 ├── requirements.txt # Dependencies └── yourAudio.mp3 # Your original input file
+.
+├── demo.gif
+├── LICENSE
+├── output
+│   └── yourAudio
+│       ├── accompaniment.wav
+│       └── vocals.wav
+├── pretrained_models
+│   └── 2stems
+│       ├── checkpoint
+│       ├── model.data-00000-of-00001
+│       ├── model.index
+│       └── model.meta
+├── preview.png
+├── README.md
+├── requirements.txt
+└── yourAudio.mp3
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -68,8 +82,6 @@ cd AudioSeparator
 
 2️⃣ Setup Python Environment
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
 ```
 Make sure Python ≥ 3.8 is installed and working.
@@ -79,16 +91,12 @@ Replace yourAudio.mp3 with your own .mp3 file in the root folder.
 
 4️⃣ Run Spleeter to Split Audio
 ```bash
-Copy
-Edit
 spleeter separate -i yourAudio.mp3 -p spleeter:2stems -o output
 ```
 5️⃣ Done ✅
 Separated files will be in:
 
 ```bash
-Copy
-Edit
 /output/yourAudio/
 ├── vocals.wav
 └── accompaniment.wav
@@ -109,9 +117,5 @@ MIT License - Use freely, credit appreciated.
 Give the repo a ⭐ if it helped you: https://github.com/rahulophile/AudioSeparator
 
 Let me know what you think or if you need help — I'm still exploring this AI audio world and loving it! 😎
-
-yaml
-Copy
-Edit
 
 ---
