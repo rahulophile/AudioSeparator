@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+output/
+env/
+.pretrained_models/

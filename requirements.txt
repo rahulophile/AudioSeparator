@@ -1,0 +1,4 @@
+spleeter
+tensorflow
+librosa
+ffmpeg-python
